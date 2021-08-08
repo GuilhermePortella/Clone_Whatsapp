@@ -1,11 +1,17 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import './App.css';
 
 import DonutLargeIcon from '@material-ui/icons/DonutLarge';
 import ChatIcon from '@material-ui/icons/Chat';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
+import SearchIcon from '@material-ui/icons/Search';
+
+import ChatListItem from './components/ChatListItem';
 
 export default () => {
+
+  const[chatlist, setChatlist] = useState([ {}, {}, {}, {} ]);
+
   return (
     <div className = "app-window">
       <div className = "sidebar">
@@ -27,18 +33,26 @@ export default () => {
             <div className = "header--btn">
               <MoreVertIcon style = {{color:'#919191'}}/>
             </div>
-            
+
           </div>
 
         </header>
 
         <div className = "search">
-          busca
+          
+          <div className = "search--input">
+            <SearchIcon fontsize='small' style = {{color:'#919191'}}/>
+            <input type="search" placeholder="Procurar ou começar uma nova conversa"/>
+          </div>
 
         </div>
 
         <div className = "chatlist">
-          chat
+          {chatlist.map((item, key)=>( 
+            <ChatListItem 
+              key = {key}
+            />
+          ))}
 
         </div>
 
