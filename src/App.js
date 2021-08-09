@@ -59,6 +59,8 @@ export default () => {
           {chatlist.map((item, key)=>( 
             <ChatListItem 
               key = {key}
+              data={item}
+              active={activeChat.chatId === (chatlist[key]).chatId}
               onClick={()=>setActiveChat(chatlist[key])}
             />
           ))}
@@ -71,7 +73,7 @@ export default () => {
           <ChatWindow/>
         }
         {activeChat.chatId === undefined &&
-          <ChatIntro/> 
+          <ChatIntro/>
         }
       </div>
     </div>
