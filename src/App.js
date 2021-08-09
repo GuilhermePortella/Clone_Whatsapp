@@ -7,10 +7,11 @@ import MoreVertIcon from '@material-ui/icons/MoreVert';
 import SearchIcon from '@material-ui/icons/Search';
 
 import ChatListItem from './components/ChatListItem';
+import ChatIntro from './components/ChatIntro';
 
 export default () => {
 
-  const[chatlist, setChatlist] = useState([ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ]);
+  const[chatlist, setChatlist] = useState([ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ]);
 
   return (
     <div className = "app-window">
@@ -59,7 +60,7 @@ export default () => {
 
       </div>
       <div className = "contentarea">
-        div dois
+        <ChatIntro/>
       </div>
     </div>
   );
