@@ -50,7 +50,7 @@ export default () =>{
             <div
             className="chatWindow--emojiarea"
             >
-                <EmojiPicker
+                <EmojiPicker style = {{ width: '100%' }}
                     onEmojiClick={handleEmojiClick}
                     disableSearchBar
                     disableSkinTonePicker
