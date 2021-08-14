@@ -16,7 +16,7 @@ export default () => {
     {chatId: 2, title:'Fulano de tal 2', Image: 'https://www.w3schools.com/howto/img_avatar2.png'},
     {chatId: 3, title:'Fulano de tal 3', Image: 'https://www.w3schools.com/howto/img_avatar2.png'},
     {chatId: 4, title:'Fulano de tal 4', Image: 'https://www.w3schools.com/howto/img_avatar2.png'},
-    {chatId: 5, title:'Fulano de tal 4', Image: 'https://www.w3schools.com/howto/img_avatar2.png'}
+    {chatId: 5, title:'Fulano de tal 5', Image: 'https://www.w3schools.com/howto/img_avatar2.png'}
   ]);
   const[activeChat, setActiveChat] = useState({});
 
