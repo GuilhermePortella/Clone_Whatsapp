@@ -3,8 +3,12 @@ import './messageItem.css';
 
 export default () => {
     return(
-        <div>
-            ....
+        <div className="messageLine">
+            <div className="messageItem">
+                <div className="messageText"> Bla Bla Blar </div>
+                <div className="messageDate"> 19:00 </div>
+
+            </div>
         </div>
     );
 }
