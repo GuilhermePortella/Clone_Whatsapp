@@ -76,7 +76,7 @@
     flex: 1;
 }
 .chatWindow--input{
-    width: 100%;
+    display: block;
     height: 40px;
     border: 0;
     outline: 0;
