@@ -34,6 +34,13 @@
 "devDependencies": {
   "url-parse": ">=1.5.9"
 },
+  
+  "dependencies": {
+  "glob-parent": ">=5.1.2"
+}
+"devDependencies": {
+  "glob-parent": ">=5.1.2"
+},
   "browserslist": {
     "production": [
       ">0.2%",
