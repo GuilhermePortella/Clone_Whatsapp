@@ -3,7 +3,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
-@bonieky
+<h4 align="center"> 
+        <img src="http://img.shields.io/static/v1?label=STATUS&message=%20Finalizado&color=RED&style=for-the-badge"/>
+</h4>
 
 ## Available Scripts
 
