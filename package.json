@@ -27,6 +27,13 @@
       "react-app/jest"
     ]
   },
+  
+  "dependencies": {
+  "url-parse": ">=1.5.9"
+},
+"devDependencies": {
+  "url-parse": ">=1.5.9"
+},
   "browserslist": {
     "production": [
       ">0.2%",
